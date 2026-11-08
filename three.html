@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DinoVerse — Facts, Map, Quiz &amp; Glossary</title>
+    <meta
+      name="description"
+      content="Dinosaur facts vs myths, global discoveries map, marine and flying reptiles, CSS quizzes, size comparison, and glossary on DinoVerse."
+    />
+    <link rel="stylesheet" href="webstyle.css" />
+  </head>
+  <body>
+
+  <audio controls loop class="music-btn">
+  <source src="audio/jurassic-theme.mp3" type="audio/mpeg">
+  </audio>
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="page-wrap">
+      <header class="site-header" role="banner">
+        <div class="site-header__inner site-header__inner--branded">
+          <div class="site-header__lead">
+            <div class="site-header__figure">
+              <img
+                class="site-header__skull"
+                src="Dinosaur Image/trex-mascot.png"
+                width="160"
+                height="160"
+                alt="Cartoon Tyrannosaurus rex mascot in sticker style, red with dark stripes"
+              />
+
+              <span class="site-header__credit">
+              Art © <a href="https://nickgowman.com/" target="_blank">Nick Gowman</a>
+            </span>
+
+            </div>
+          </div>
+          <div class="site-header__text">
+            <p class="site-header__brand">DinoVerse</p>
+            <h1 class="site-header__tagline">Facts, Map &amp; Activities — Test What You Know</h1>
+          </div>
+          <div class="site-header__balance" aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="one.html">Directory &amp; Timeline</a></li>
+          <li><a href="two.html">Types &amp; Fossils</a></li>
+          <li><a href="three.html" aria-current="page">Facts, Map &amp; Fun</a></li>
+          <li><a href="four.html">Movie Gallery</a></li>
+        </ul>
+      </nav>
+
+      <marquee behavior="scroll" direction="left" scrollamount="10">
+      <strong>CLICK THE BUTTON AT THE BOTTOM TO LISTEN TO THE JURASSIC PARK THEME SONG WHILE YOU EXPLORE!</strong>
+      </marquee>
+
+      <section
+        class="parallax-band parallax-band--page-three"
+        aria-label="Banner: map of the supercontinent Pangaea"
+      >
+        <div class="parallax-band--inner">
+          <h2>Evidence Over Hype</h2>
+        </div>
+      </section>
+
+      <main id="main">
+        <p class="lede">
+          Movies make dinosaurs look huge, loud, and dramatic. Science looks at evidence, rock layers, and careful study. This page combines both ideas. You will find dinosaur discoveries from different continents, myth-busting based on museum evidence, and interactive mini-games.
+        </p>
+
+        <section id="map" aria-labelledby="map-heading">
+          <h2 id="map-heading">Map of Discoveries &amp; Continental Drift</h2>
+          <p>
+          The Earth in the Mesozoic looked very different from today. The continents were once joined as <strong>Pangaea</strong> and later split apart. The Atlantic Ocean grew wider, and India eventually collided with Asia. Because of this, dinosaur fossils are found on different continents today not because dinosaurs traveled between them, but because the continents moved. Similar rock layers and related species on separate landmasses helped scientists understand plate tectonics. For example, fossils like <em>Spinosaurus</em> in North Africa and <em>Giganotosaurus</em> in Argentina show that these regions were once connected.
+        </p>
+          <figure>
+            <img
+              src="Dinosaur Image/map-pangaea.jpg"
+              alt="Map of the supercontinent Pangaea about 200 million years ago"
+              width="1519"
+              height="759"
+            />
+            <figcaption>
+              <strong>Pangaea at roughly 200 Ma.</strong>
+              Map:
+              <a href="https://commons.wikimedia.org/wiki/File:Pangaea_200Ma.jpg"
+                >Fama Clamosa</a>
+            </figcaption>
+          </figure>
+        </section>
+
+        <hr class="section-rule" />
+
+        <section id="myths" aria-labelledby="myths-heading">
+          <h2 id="myths-heading">Dinosaur Facts &amp; Myths</h2>
+          <article class="card-grid">
+            <article class="card">
+              <h3>Feathers vs Scales</h3>
+              <p>
+                <strong>Myth:</strong> Every dinosaur was fully feathered like modern birds. <br>
+                <strong>Fact:</strong> Many theropods had feathers or simple filament-like structures. 
+                Feather coverage likely varied depending on the species, age, and environment, and larger dinosaurs may have had less body covering than smaller ones.
+              </p>
+              </article>
+
+              <article class="card">
+                <h3>Tyrannosaurus rex Speed</h3>
+                <p>
+                  <strong>Myth:</strong> T-Rex could run at extremely high speeds like a modern fast predator. <br>
+                  <strong>Fact:</strong> Studies suggest T-Rex could walk efficiently and may have been capable of short bursts of speed, but not sustained high-speed running.
+                </p>
+              </article>
+
+              <article class="card">
+                <h3>Extinction</h3>
+                <p>
+                  <strong>Myth:</strong> A single cause explains the extinction of dinosaurs. <br>
+                  <strong>Fact:</strong> Non-avian dinosaurs went extinct at the end of the Cretaceous, and scientists continue to study multiple contributing factors such as an asteroid impact, volcanic activity, and environmental changes.
+                </p>
+            </article>
+          </article>
+        </section>
+
+        <hr class="section-rule" />
+
+        <section id="nondinos" aria-labelledby="nd-heading">
+          <h2 id="nd-heading">Prehistoric Non-Dinosaurs</h2>
+          <p>
+            People often use the word “dinosaur” for anything old and reptile-like, but in science the definition is more specific. <strong>Pterosaurs</strong> were close relatives of dinosaurs and the first vertebrates to achieve powered flight, but they are not dinosaurs. <strong>Plesiosaurs</strong> and <strong>mosasaurs</strong> were marine reptiles from different groups, not dinosaurs either. <strong>Dimetrodon</strong>, often sold as a dinosaur toy, is actually more closely related to mammals. Understanding these differences helps you recognize how scientists group organisms based on relationships, not just appearance.
+          </p>
+          <figure>
+          <img
+            src="Dinosaur Image/nondinosaurs.jpg"
+            alt="Marine reptiles such as plesiosaurs swimming underwater"
+            width="600"
+            height="360"/>
+          <figcaption>
+            <strong>Not dinosaurs</strong>, but common Mesozoic reptiles. Source: 
+            <a href="https://www.snexplores.org/article/thats-no-dino">
+              Science News Explores
+            </a>
+          </figcaption>
+        </figure>
+        </section>
+
+        <hr class="section-rule" />
+
+        <section id="size" aria-labelledby="size-heading">
+          <h2 id="size-heading">Size Comparison Tool</h2>
+          <p>
+          All bars use the same scale, with the longest set near <strong>35 metres</strong> so everything fits within the chart. Hovering highlights each bar slightly.
+        </p>
+          <div class="size-compare" role="img" aria-label="Relative length comparison chart">
+            <div class="size-bar">
+              <span class="size-bar__label">Human adult</span>
+              <div class="size-bar__track">
+                <div class="size-bar__fill size-bar__fill--human"></div>
+              </div>
+              <span class="size-bar__note">~1.7 m</span>
+            </div>
+            <div class="size-bar">
+              <span class="size-bar__label"><em>Velociraptor</em></span>
+              <div class="size-bar__track">
+                <div class="size-bar__fill size-bar__fill--raptor"></div>
+              </div>
+              <span class="size-bar__note">~2 m</span>
+            </div>
+            <div class="size-bar">
+              <span class="size-bar__label">School Bus</span>
+              <div class="size-bar__track">
+                <div class="size-bar__fill size-bar__fill--bus"></div>
+              </div>
+              <span class="size-bar__note">~12 m</span>
+            </div>
+            <div class="size-bar">
+              <span class="size-bar__label"><em>Tyrannosaurus</em></span>
+              <div class="size-bar__track">
+                <div class="size-bar__fill size-bar__fill--trex"></div>
+              </div>
+              <span class="size-bar__note">~12–13 m</span>
+            </div>
+            <div class="size-bar">
+              <span class="size-bar__label"><em>Argentinosaurus</em></span>
+              <div class="size-bar__track">
+                <div class="size-bar__fill size-bar__fill--argent"></div>
+              </div>
+              <span class="size-bar__note">~30+ m</span>
+            </div>
+          </div>
+        </section>
+
+        <hr class="section-rule" />
+
+        <section id="quiz" aria-labelledby="quiz-heading">
+          <h2 id="quiz-heading">Dino Quiz &amp; Games</h2>
+          <p>
+            Click or tap each question to reveal the answer block.
+          </p>
+          <div class="quiz">
+            <details>
+              <summary>Which group includes living birds?</summary>
+              <p class="answer">
+                <strong>Answer:</strong> Theropoda within Saurischia. Birds are
+                crown-group dinosaurs by definition.
+              </p>
+            </details>
+            <details>
+              <summary>True or false: Pterosaurs are dinosaurs.</summary>
+              <p class="answer">
+                <strong>Answer:</strong> False. Pterosaurs are
+                pterosauromorph archosaurs, closely related but separate from
+                Dinosauria.
+              </p>
+            </details>
+            <details>
+              <summary>What does “ornithischian” hip shape resemble?</summary>
+              <p class="answer">
+                <strong>Answer:</strong> A backward-pointing pubis is seen in many groups. Despite the name, birds are actually part of the saurischian lineage.
+              </p>
+            </details>
+            <details>
+              <summary>Which period is youngest from today: Triassic, Jurassic, or Cretaceous?</summary>
+              <p class="answer">
+                <strong>Answer:</strong> Cretaceous.
+                (Triassic → Jurassic → Cretaceous).
+              </p>
+            </details>
+          </div>
+
+          <h3>Which dinosaur are you?</h3>
+        <p>
+          Pick the option that fits you best.
+        </p>
+
+        <div class="persona-pick">
+          <input
+            class="visually-hidden"
+            type="radio"
+            name="dino-persona"
+            id="p-theropod"
+          />
+          <label for="p-theropod">
+            Curious, active, and enjoys solving problems.
+          </label>
+
+          <input
+            class="visually-hidden"
+            type="radio"
+            name="dino-persona"
+            id="p-sauropod"
+          />
+          <label for="p-sauropod">
+            Patient, steady, and thinks long term.
+          </label>
+
+          <input
+            class="visually-hidden"
+            type="radio"
+            name="dino-persona"
+            id="p-ceratops"
+          />
+          <label for="p-ceratops">
+            Social, expressive, and stands your ground.
+          </label>
+
+          <div class="persona-results" aria-live="polite">
+            <div class="result-theropod">
+              <p>
+                <strong>You might be a theropod.</strong> You enjoy exploring ideas,
+                asking questions, and figuring things out.
+              </p>
+            </div>
+
+            <div class="result-sauropod">
+              <p>
+                <strong>You might be a sauropod.</strong> You stay consistent and work
+                through challenges step by step.
+              </p>
+            </div>
+
+            <div class="result-ceratops">
+              <p>
+                <strong>You might be a ceratopsian.</strong> You value teamwork and stand
+                confidently by your ideas.
+              </p>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <hr class="section-rule" />
+
+        <section id="sources-about" aria-labelledby="src-heading">
+          <h2 id="src-heading">How Did The Dinosaurs Go Extinct?</h2>
+          <p>
+            At the end of the Cretaceous period, dinosaurs became extinct some 66 million years ago. The most known way is that a huge asteroid hit the earth in the area that is now the Yucatán Peninsula and caused significant changes in the environment. The force must have caused dust and debris to be released to the atmosphere that caused a blockage of sunlight and a disturbance of photosynthesis, which impacted not only plants but also the animals that relied on them. Meanwhile, the volcanoes that occurred in the present-day India were highly active and could have emitted gases that caused a further alteration of the climate. All these effects resulted in a rapid ecosystem collapse. Majority of dinosaurs became extinct, yet the birds remained, and they live today as their descendants.
+          </p>
+        </section>
+
+        <section id="glossary" aria-labelledby="gl-heading">
+          <h2 id="gl-heading">Glossary</h2>
+          <dl>
+            <dt><dfn>Herbivore</dfn></dt>
+            <dd>An animal that eats plants; many ornithischians and sauropods fit here.</dd>
+            <dt><dfn>Carnivore</dfn></dt>
+            <dd>A meat-eater; classic examples include large theropods.</dd>
+            <dt><dfn>Omnivore</dfn></dt>
+            <dd>An animal that eats both plants and animals.</dd>
+            <dt><dfn>Paleontologist</dfn></dt>
+            <dd>Scientist who studies ancient life through fossils and context.</dd>
+            <dt><dfn>Ornithischia</dfn></dt>
+            <dd>Major dinosaur branch with distinctive hip structure among many members.</dd>
+            <dt><dfn>Saurischia</dfn></dt>
+            <dd>Dinosaur branch that includes sauropodomorphs and theropods (with birds).</dd>
+          </dl>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              <a href="mailto:dinoverse.education@gmail.com"
+                >dinoverse.education@gmail.com</a>
+            </p>
+            <p>
+              PH: +1 (437) 249-1621
+            </p>
+          </div>
+          <div>
+            <h2>Reputable Sources</h2>
+            <ul>
+              <li>
+                <a href="https://www.nhm.ac.uk/">Natural History Museum, London</a>
+              </li>
+              <li>
+                <a href="https://ucmp.berkeley.edu/"
+                  >University of California Museum of Paleontology</a
+                >
+              </li>
+              <li>
+                <a href="https://naturalhistory.si.edu/"
+                  >Smithsonian National Museum of Natural History</a
+                >
+              </li>
+              <li>
+                <a href="https://www.amnh.org/">American Museum of Natural History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer-meta">
+          &copy; 2026 DinoVerse Educational Project ⋅ Explore Dinosaurs Like Never Before
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
